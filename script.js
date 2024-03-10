@@ -17,8 +17,9 @@ const winningPositions=[
 ];
 startGame();
 function startGame(){
+    console.log(xTurn);
+    gameTurn.textContent='X';
     createBoard();
-    gameTurn.textContent=xTurn?'X':'O';
     turn=0;
     xTurn=true;
     endGame.classList.remove('show');
