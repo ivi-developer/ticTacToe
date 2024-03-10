@@ -13,7 +13,7 @@ body{
     display: grid;
     gap: 1rem;
     place-content: start center;
-    margin-top: 10rem;
+    margin-top: 7.5rem;
 }
 .gameBoard{
     width: 300px;
@@ -96,7 +96,7 @@ body{
     display: grid;
     gap: 1rem;
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 7.5rem;
 }
 .newGameButton{
     background-color: dodgerblue;
